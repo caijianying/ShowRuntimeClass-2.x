@@ -3,3 +3,5 @@ plugins {
 }
 
 rootProject.name = "ShowRuntimeClass-2.x"
+include("plugin-core")
+include("plugin-agent")
