@@ -151,7 +151,7 @@ public class FileTree extends Tree {
 
     private void setIconRender() {
         DefaultTreeCellRenderer cellRenderer = new DefaultTreeCellRenderer();
-        cellRenderer.setLeafIcon(IconLoader.findIcon("./icons/classIcon.svg"));
+        cellRenderer.setLeafIcon(IconLoader.findIcon("/icons/class.svg"));
         setCellRenderer(cellRenderer);
     }
 
